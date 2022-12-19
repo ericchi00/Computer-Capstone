@@ -2,7 +2,7 @@
   "name": "catbreedpredictor",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://catbreedpredictorapi.herokuapp.com/",
+  "homepage": "http://ericchi00.github.io/Computer-Capstone",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "chart.js": "^4.0.1",
