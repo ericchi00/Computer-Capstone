@@ -4,8 +4,16 @@ I created a cat breed predictor website.
 
 Technologies:
 
-Machine learning model was created using Tensorflow and hosted on FlashAi.io
+Frontend dependencies:
 
-Backend was created using Flask (Python)
+Bootstrap
 
-Frontend was created using React
+Chart.js
+
+React
+
+Tensorflow (machine learning model) hosted on FlashAi.io
+
+Flask (Python) backend
+
+[Live Demo](https://ericchi00.github.io/Computer-Capstone/) hosted on github pages.
