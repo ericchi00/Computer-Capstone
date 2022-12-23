@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Computer-Capstone/static/css/main.5b0c01b4.css",
-    "main.js": "/Computer-Capstone/static/js/main.107888c7.js",
+    "main.js": "/Computer-Capstone/static/js/main.23cdfdcd.js",
     "static/js/787.e1cc88f7.chunk.js": "/Computer-Capstone/static/js/787.e1cc88f7.chunk.js",
     "static/media/Figure_1.png": "/Computer-Capstone/static/media/Figure_1.f7b0bad516e59e4ff9b5.png",
     "index.html": "/Computer-Capstone/index.html",
     "main.5b0c01b4.css.map": "/Computer-Capstone/static/css/main.5b0c01b4.css.map",
-    "main.107888c7.js.map": "/Computer-Capstone/static/js/main.107888c7.js.map",
+    "main.23cdfdcd.js.map": "/Computer-Capstone/static/js/main.23cdfdcd.js.map",
     "787.e1cc88f7.chunk.js.map": "/Computer-Capstone/static/js/787.e1cc88f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b0c01b4.css",
-    "static/js/main.107888c7.js"
+    "static/js/main.23cdfdcd.js"
   ]
 }
