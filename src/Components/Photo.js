@@ -59,8 +59,9 @@ const Photo = () => {
       headers
     );
     const response = await url.json();
-    setCat(classNames[response[0]]);
-    const data = convertArrayToNumber(response);
+    const catBreed = Number(response[0]);
+    setCat(classNames[catBreed]);
+    const data = roundNumber(response[1]);
     const filteredData = [];
     const filteredLabels = [];
     for (let i = 0; i < classNames.length; i++) {
@@ -114,11 +115,10 @@ const Photo = () => {
     setHaveData(true);
   };
 
-  const convertArrayToNumber = (arr) => {
-    arr.splice(0, 1);
+  const roundNumber = (arr) => {
     const data = arr;
     for (let i = 0; i < data.length; i++) {
-      data[i] = Math.round(Number(data[i]).toFixed(20) * 100);
+      data[i] = Math.round(data[i].toFixed(20) * 100);
     }
     return data;
   };
